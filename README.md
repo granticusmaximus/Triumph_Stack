@@ -14,6 +14,8 @@ https://docs.microsoft.com/en-us/aspnet/core/getting-started?view=aspnetcore-2.1
 # React.js
 https://reactjs.org/
 
+
+# Why I picked this stack:
 C# has been around for quite some time now, with quite a few tutorials and quite a bit of documentation found all across the
 web. This is why I chose to go with C#. 
 
