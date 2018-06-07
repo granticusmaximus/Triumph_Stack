@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Triumph\Business.csproj", "{0C3B21B4-C3E0-43EC-9DEC-D0E6EB1615D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{9B2B7249-CD92-4CA8-BD6E-FE5E0358A42E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{D660042E-AE52-4262-A36E-138DD287FDA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3B21B4-C3E0-43EC-9DEC-D0E6EB1615D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3B21B4-C3E0-43EC-9DEC-D0E6EB1615D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3B21B4-C3E0-43EC-9DEC-D0E6EB1615D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3B21B4-C3E0-43EC-9DEC-D0E6EB1615D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2B7249-CD92-4CA8-BD6E-FE5E0358A42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2B7249-CD92-4CA8-BD6E-FE5E0358A42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2B7249-CD92-4CA8-BD6E-FE5E0358A42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2B7249-CD92-4CA8-BD6E-FE5E0358A42E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D660042E-AE52-4262-A36E-138DD287FDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D660042E-AE52-4262-A36E-138DD287FDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D660042E-AE52-4262-A36E-138DD287FDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D660042E-AE52-4262-A36E-138DD287FDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
