@@ -40,5 +40,7 @@ namespace Business.Models
         public DateTime createdat { get; set; }
 
         public DateTime updatedat { get; set; }
+
+        public bool isAdmin { get; set; }
     }
 }
