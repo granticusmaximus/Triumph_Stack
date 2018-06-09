@@ -16,6 +16,8 @@ namespace Business.DataAccess
         }
 
         public DbSet<TodoItem> Items { get; set; }
+        public DbSet<UserModel> userModels { get; set; }
+        public DbSet<ClientModel> ClientModels { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
