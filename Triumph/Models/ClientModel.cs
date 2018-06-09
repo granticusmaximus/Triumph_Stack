@@ -16,6 +16,15 @@ namespace Business.Models
         [Display(Name = "Address:")]
         public string address { get; set; }
 
+        [Display(Name = "City:")]
+        public string city { get; set; }
+
+        [Display(Name = "State:")]
+        public string state { get; set; }
+
+        [Display(Name = "zip:")]
+        public string zip { get; set; }
+
         [Required]
         [Display(Name = "Contact Number:")]
         public int contact_num { get; set; }
