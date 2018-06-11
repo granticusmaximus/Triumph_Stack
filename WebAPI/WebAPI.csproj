@@ -26,4 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Triumph\Business.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\TodoController.cs" />
+  </ItemGroup>
 </Project>

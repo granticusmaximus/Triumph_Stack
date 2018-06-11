@@ -26,8 +26,11 @@
     <Folder Include="App_Data\" />
     <Folder Include="Services\Interfaces\" />
     <Folder Include="Models\ViewModel\" />
+    <Folder Include="DataAccess\DTO\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\SQLLink.cs" />
+    <Compile Remove="Services\Interfaces\ITodoItemService.cs" />
+    <Compile Remove="Services\TodoItemService.cs" />
   </ItemGroup>
 </Project>
