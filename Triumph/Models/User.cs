@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Business.Models
 {
-    public class UserModel
+    public class User
     {
         [Key]
         public int uid { get; set; }
@@ -42,5 +42,8 @@ namespace Business.Models
         public DateTime updatedat { get; set; }
 
         public bool isAdmin { get; set; }
+
+        public byte[] PasswordHash { get; set; }
+        public byte[] PasswordSalt { get; set; }
     }
 }

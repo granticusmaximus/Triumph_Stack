@@ -14,6 +14,7 @@
     <PackageReference Include="NLog" Version="4.5.6" />
     <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.6" />
     <PackageReference Include="ClosedXML" Version="0.92.1" />
+    <PackageReference Include="AutoMapper" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +28,7 @@
     <Folder Include="Services\Interfaces\" />
     <Folder Include="Models\ViewModel\" />
     <Folder Include="DataAccess\DTO\" />
+    <Folder Include="Helpers\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\SQLLink.cs" />
