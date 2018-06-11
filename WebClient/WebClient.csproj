@@ -15,18 +15,6 @@
     <None Remove="triumph\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="_actions\" />
-    <Folder Include="_components\" />
-    <Folder Include="_constants\" />
-    <Folder Include="_helpers\" />
-    <Folder Include="_reducers\" />
-    <Folder Include="_services\" />
-    <Folder Include="App\" />
-    <Folder Include="HomePage\" />
-    <Folder Include="LoginPage\" />
-    <Folder Include="RegisterPage\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Remove="Properties\launchSettings.json" />
   </ItemGroup>
 </Project>
